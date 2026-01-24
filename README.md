@@ -28,3 +28,12 @@
 🚀 次のステップ (Next Steps)
 - AWS RDS 構築着手
 
+### [2026-01-24] AWS インフラ基盤の構築 (Security & Foundation)
+- **AWS アカウント作成**: クラウド環境の初期セットアップ完了
+- **Root アカウントの保護**:
+    - MFA (Multi-Factor Authentication) を有効化し、認証セキュリティを強化
+- **IAM (Identity and Access Management) 運用の開始**:
+    - 開発用ユーザー `itsme-admin` を作成
+    - **AdministratorAccess** ポリシーを直接アタッチし、ルートアカウントを使用しない安全な開発環境を構築
+    - AWS Management Console へのアクセス権限を設定し、専用ログインURLで運用を開始
+- **Current Status**: クラウド管理基盤の構築完了。作成した IAM ユーザーでログインし、RDS 生成の準備が整った状態。
